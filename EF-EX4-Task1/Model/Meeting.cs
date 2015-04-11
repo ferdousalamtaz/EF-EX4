@@ -13,6 +13,7 @@ namespace EF_EX4_Task1.Model
         public Meeting()
         {
             Participants = new List<User>();
+            Agenda = new Agenda();
         }
         public int Id { get; set; }
         public string Name { get; set; }

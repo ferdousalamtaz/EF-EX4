@@ -19,5 +19,6 @@ namespace EF_EX4_Task1.DAL
         public DbSet<User> Users { get; set; }
         public DbSet<Meeting> Meetings { get; set; }
         public DbSet<Photo> Photos { get; set; }
+        public DbSet<Room> Rooms { get;set;}
     }
 }
